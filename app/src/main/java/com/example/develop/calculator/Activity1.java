@@ -225,23 +225,6 @@ public class Activity1 extends Activity {
 
         });
 
-        bZero.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                s = (String) txtViewResult.getText();
-                if (s.equals("+") || s.equals("-") || s.equals("/")
-                        || s.equals("*")) {
-                    txtViewResult.setText("");
-                    s = "";
-                }
-                txtViewResult.setText(s + "0");
-                s = "";
-            }
-
-
-        });
-
         // passing an entire function as parameter
         bAdd.setOnClickListener(new View.OnClickListener() {
 
